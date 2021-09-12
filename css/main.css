@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+label::after{
+    content: ":";
+}
+
+.user-email-account-link{
+    text-align: right;
+}
+
+.filters-label::after{
+    content: ":";
+}
+
+#search-filters-form{
+    margin-top: 50px;
+}
+
+#search-filter-form-controlls{
+    margin-top: 25px;
+}
